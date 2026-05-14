@@ -405,3 +405,152 @@ body{
     }
 
 }
+/* CONTACTO NUEVO */
+
+.contacto-page{
+    min-height:100vh;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    padding:150px 80px;
+}
+
+.contacto-container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    gap:100px;
+
+    max-width:1400px;
+}
+
+/* INFORMACION */
+
+.info-contacto{
+    flex:1;
+}
+
+.info-contacto h1{
+    font-size:5rem;
+    margin-bottom:30px;
+}
+
+.descripcion{
+    max-width:600px;
+
+    line-height:1.9;
+
+    color:#d1d1d1;
+
+    margin-bottom:40px;
+}
+
+.datos-contacto{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+}
+
+.dato{
+    display:flex;
+    align-items:center;
+    gap:20px;
+
+    font-size:1.1rem;
+}
+
+.dato i{
+    font-size:1.5rem;
+    color:#c9a56d;
+}
+
+/* REDES */
+
+.redes-sociales{
+    display:flex;
+    gap:25px;
+
+    margin-top:20px;
+}
+
+.redes-sociales a{
+    width:60px;
+    height:60px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    background:#1e1e1e;
+
+    border-radius:50%;
+
+    color:white;
+
+    font-size:1.5rem;
+
+    text-decoration:none;
+
+    transition:0.3s;
+}
+
+.redes-sociales a:hover{
+    transform:translateY(-5px);
+    background:#c9a56d;
+}
+
+/* QR */
+
+.qr-container{
+    background:#1a1a1a;
+
+    padding:40px;
+
+    border-radius:25px;
+
+    text-align:center;
+
+    box-shadow:0 15px 40px rgba(0,0,0,0.4);
+}
+
+.qr-container h2{
+    margin-bottom:25px;
+}
+
+.qr-img{
+    width:280px;
+
+    border-radius:20px;
+
+    margin-bottom:20px;
+}
+
+.qr-container p{
+    color:#cfcfcf;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:1000px){
+
+    .contacto-container{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .info-contacto h1{
+        font-size:3.5rem;
+    }
+
+    .dato{
+        justify-content:center;
+    }
+
+    .redes-sociales{
+        justify-content:center;
+    }
+
+}
