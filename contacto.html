@@ -7,6 +7,10 @@
     <title>Contacto | RAMÉ</title>
 
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- ICONOS -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
@@ -19,7 +23,7 @@
             <ul class="nav-links">
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="galeria.html">Galería</a></li>
-                <li><a href="sobre-nosotras.html">Sobre nosotras</a></li>
+                <li><a href="sobre-mi.html">Sobre mí</a></li>
                 <li><a href="servicios.html">Servicios</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
             </ul>
@@ -29,24 +33,65 @@
 
     <section class="contacto-page">
 
-        <h1>Contacto</h1>
+        <div class="contacto-container">
 
-        <form class="formulario">
+            <!-- TEXTO -->
 
-            <input type="text" placeholder="Nombre">
+            <div class="info-contacto">
 
-            <input type="email" placeholder="Correo">
+                <h1>Contacto</h1>
 
-            <textarea placeholder="Mensaje"></textarea>
+                <div class="datos-contacto">
 
-            <button type="submit">
-                Enviar
-            </button>
+                    <div class="dato">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>ramefotografia00@gmail.com</span>
+                    </div>
+                    <br>
+                    <div class="dato">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <span>319 418 7643</span>
+                    </div>
 
-        </form>
+                    <div class="redes-sociales">
+
+                        <a href="https://www.instagram.com/rame.ph_?igsh=MTNxZzc4ZzZyMDVqcQ%3D%3D&utm_source=qr"
+                        target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="https://www.facebook.com/people/Rameph/61589499520193/?mibextid=wwXIfr&rdid=iri71zD8VjJnOFD5&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1L9yqYaD9d%2F%3Fmibextid%3DwwXIfr"
+                        target="_blank">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- QR -->
+
+            <div class="qr-container">
+
+                <h2>Instagram</h2>
+
+                <img
+                src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://www.instagram.com/rame.ph_/"
+                alt="QR Instagram"
+                class="qr-img">
+
+                <p>
+                    Escanea el código QR para visitar nuestro perfil.
+                </p>
+
+            </div>
+
+        </div>
 
     </section>
 
 </body>
 
-</html>
+</html
