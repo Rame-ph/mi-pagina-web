@@ -9,9 +9,10 @@ body{
     background:
     linear-gradient(
     to bottom,
+    #928257,
     #000000,
-    #0d0d0d,
-    #111111
+    #000000,
+    #928257
     );
 
     color:#f5f5f5;
@@ -404,7 +405,13 @@ body{
 
     padding:120px 80px;
 
-    background:#111;
+    background:linear-gradient(
+    to bottom,
+    #928257,
+    #000000,
+    #000000,
+    #928257
+    );
 }
 
 .hero-container{
